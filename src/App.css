@@ -1,3 +1,23 @@
+/* .title{
+  margin: auto;
+  color: gold;
+  text-align: center;
+}
+
+.name1{
+  margin: auto;
+  color: green;
+  text-align: center;
+} */
+
+body{
+  background-color: brown;
+
+}
+.div1{
+  margin-top: 12%;
+  line-height: 3;
+}
 .App {
   text-align: center;
 }
