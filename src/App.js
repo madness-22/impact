@@ -1,17 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Checkbox from './com/check/Checkbox'
-
-const tasks =[
-  'hi',
-  'my',
-  'name',
-  'name',
-  'is',
-  'VaLaK'
-]
-
-
+// import Checkbox from './com/check/Checkbox'
 
 
 function App() {
@@ -38,9 +27,3 @@ function App() {
 export default App;
 
 
-
-// array.forEach(element => {
-  
-// });
-
-// map 
