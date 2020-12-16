@@ -6,6 +6,7 @@ import Mycard from './com/Card/Card'
 import { Layout, Menu, Breadcrumb } from 'antd';
 import { Card } from 'antd';
 import Calendarr from "./com/setting/Setting";
+import List from "./com/setting/List";
 
 
 
@@ -17,7 +18,7 @@ function App() {
     console.log(o.key)
     switch (o.key) {
       case 'Profile':
-        
+        setActiveTab(List)
         break;
       case 'Feed':
         

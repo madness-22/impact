@@ -1,0 +1,19 @@
+.card{
+    border: #cee397 1px solid;
+    /* background-color: #cee397; */
+    margin:  10px auto 10px; 
+    text-align: center;
+    width: 55%;
+    color: yellow;
+    
+}
+
+.imgg{
+    width: 17%;
+    border-radius: 100%;
+    margin: auto;
+}
+
+body{
+    background-color: #ef8172;
+  }
