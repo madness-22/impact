@@ -1,11 +1,10 @@
-
 import "./Mycard.css";
 import { Card } from 'antd';
 import { Row, Col } from 'antd';
 
 const Mycard=() =>{
     return(
-    <div className="site-caed-wrapper">
+    <div className="site-card-wrapper">
         <Row justify="center" gutter={16}>
             <Col span={8}>
             <Card title="Bio card" >
