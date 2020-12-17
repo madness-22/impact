@@ -1,29 +1,26 @@
 import React, { useEffect, useState } from 'react';
 import $ from 'jquery'
-import Head from './Head'
+import Head from '../head/Head'
+
+
 
 const List = () => {
-    const [data, setData] = useState();
+    // const [data, setData] = useState();
     const url = ['https://randomuser.me/api']
-    useEffect(() => {
+    // useEffect(() => {
         $.get(url, (res, error) => {
-            console.log(res.results);
-            setData(res.results)
+            // console.log(res.results);
+            // setData(res.results)
+            let data = res.results;
 
         })
-    }, [])
+    // }, [])
 
     if (data != undefined) {
 
         return (
             <div>
-                {/* <h1>
-                    This is List
-            </h1> */}
-                
-                    {data.map((item) => <Head obj={item}/>)}
-            
-                {/* <button onClick={()=>{console.log(data)}}>dara</button> */}
+                {data.map((item) => <Head obj={item}/>)}
             </div>
         )
     } else {
